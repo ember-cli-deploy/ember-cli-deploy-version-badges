@@ -1,4 +1,3 @@
-require 'byebug'
 module Jekyll
   class VersionColorTag < Liquid::Tag
     def render(context)
