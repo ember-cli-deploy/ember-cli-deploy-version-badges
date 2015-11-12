@@ -7,3 +7,5 @@ baseurl: "/ember-cli-deploy-version-badges"
 
 # Build settings
 markdown: kramdown
+
+stable_version: 0.5.0

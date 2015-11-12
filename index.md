@@ -4,6 +4,7 @@ title: Ember Cli Deploy version badges
 ---
 
 ![](./plugins/ember-cli-deploy-s3.svg)
+![](./plugins/ember-deploy-ssh-index.svg)
 
 ember-cli-deploy plugins with this badge should work (without deprecation) when using an appropriate
 version of ember-cli-deploy.
