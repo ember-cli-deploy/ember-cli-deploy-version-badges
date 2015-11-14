@@ -8,7 +8,7 @@
   </mask>
   <g mask="url(#a)">
     <path fill="#555" d="M0 0h160v20H0z"/>
-    <path fill="{% version_color site.stable_version page.end_version %}" d="M160 0h73v20h-73z"/>
+    <path fill="{% if site.stable_version > page.max_supported_version %}#e05d44{% else %}#ac1{% endif %}" d="M160 0h73v20h-73z"/>
     <path fill="url(#b)" d="M0 0h233v20H0z"/>
   </g>
   <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
