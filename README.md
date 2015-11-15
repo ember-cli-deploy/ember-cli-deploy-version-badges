@@ -22,6 +22,7 @@ layout: plugin
 url: http://github.com/ember-cli-deploy/ember-cli-deploy-s3
 start_version: "0.5.0"
 end_version: "1.0.0"
+max_supported_version: 001000000000
 permalink: /plugins/ember-cli-deploy-s3.svg
 ---
 ```
@@ -48,13 +49,25 @@ Is used as a badge with the following markup:
 ![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-s3.svg)
 ```
 
-Please help ensure your own plugins posts are correctly flagged by adding a badge
+Please help ensure your own plugins are correctly flagged by adding a badge
 when you publish.
 
-Linking to a URL that does not exist, such as before your
-PR with the new badge is merged, will result in a "pending" badge. As
-soon as the PR is merged and GitHub pages updates, the versioned badge will
-appear.
+#### `end_version`:
+
+If your plugin supports only up to a specific version of `ember-cli-deploy` you can specify
+an `end_version` key that will be used in the badge and a `max_supported_version` key that will be used to
+compare the current version of `ember-cli-deploy` and the version supported by the plugin so that the proper color (red or green) can be used in your badge.
+
+Due to limitations of the GH hosting the `max_supported_version` key has to be an integer.
+
+The format that we're using (without spaces) is:
+
+```
+Major Minor Patch Beta
+000   000   000   000
+```
+
+There's also a script `create_badge.rb` that can be used to ease the process of generating a new badge
 
 ### Credits:
 
