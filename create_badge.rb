@@ -20,6 +20,7 @@ class Wizard
     @end_version = ask('What is the last supported ember-cli-deploy version (if any)?', lambda(&method(:extract_version))) do |q|
       q.validate = lambda { |v| v.empty? ? true : extract_version(v) }
     end
+    self
   end
 
   private
@@ -38,7 +39,6 @@ class Output
 
   def to_yml
     yml = <<STR
-
 ---
 layout: plugin
 start_version: #{wizard.start_version.unparse(required_fields: [:major, :minor, :tiny])}
@@ -52,7 +52,6 @@ STR
     yml += <<STR
 permalink: /plugins/#{wizard.name}.svg
 ---
-
 STR
 
     yml
@@ -70,7 +69,7 @@ end
 
 class Writer
   def initialize(name, data)
-    @name = "#{name}.svg"
+    @name = "#{name}.md"
     @data = data
   end
 
