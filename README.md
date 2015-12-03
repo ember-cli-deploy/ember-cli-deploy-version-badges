@@ -69,6 +69,14 @@ Major Minor Patch Beta
 
 There's also a script `create_badge.rb` that can be used to ease the process of generating a new badge
 
+## Using a badge
+
+Once the PR for your badge is merged simply add it to your project's Readme (we normally also wrap it in a link that points to this repo)
+
+```
+[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-s3.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
+```
+
 ### Credits:
 
 Thanks to @mixonic doing the hard work in [mixonic/ember-community-versions](https://github.com/mixonic/ember-community-versions)

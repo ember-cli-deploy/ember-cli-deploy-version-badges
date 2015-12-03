@@ -3,7 +3,7 @@ layout: page
 title: Ember Cli Deploy version badges
 ---
 
-![](./plugins/ember-cli-deploy-s3.svg)
+[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-s3.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
 ![](./plugins/ember-deploy-ssh-index.svg)
 
 ember-cli-deploy plugins with this badge should work (without deprecation) when using an appropriate
@@ -16,9 +16,14 @@ and should include the URL of the original entry. For example:
 
 {% highlight yaml %}
 layout: plugin
-url: http://github.com/ember-cli-deploy/ember-cli-deploy-s3
 start_version: "0.5.0"
 permalink: /plugins/ember-cli-deploy-s3.svg
+{% endhighlight %}
+
+To include a badge in you Readme use markdown syntax and wrap it in a link
+
+{% highlight html %}
+[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-s3.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
 {% endhighlight %}
 
 Please help ensure your own plugins are correctly flagged by adding a badge
