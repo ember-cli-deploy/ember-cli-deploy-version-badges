@@ -1,8 +1,8 @@
 # Site settings
-title: Ember Cli Deploy Versions
+title: Ember Cli Deploy Version Badges
 description: > # this means to ignore newlines until "baseurl:"
   ember-cli-deploy-version-badges provides helpful badges with versioning
-  information to ember-cli-deploy-plugins
+  information to ember-cli-deploy plugins
 baseurl: "/ember-cli-deploy-version-badges"
 
 # Build settings
