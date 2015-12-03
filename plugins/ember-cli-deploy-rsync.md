@@ -1,7 +1,5 @@
 ---
 layout: plugin
-start_version: 0.4.0
-end_version: 0.4.3
-max_supported_version: 000004003000
+start_version: 0.5.0
 permalink: /plugins/ember-cli-deploy-rsync.svg
 ---
