@@ -12,7 +12,7 @@ Badges are stored as Jekyll pages. For example, the badge for this plugin:
 
 Is stored at:
 
-* [/plugins/ember-cli-deploy-s3](https://github.com/ember-cli-deploy/ember-cli-deploy-version-badges/blob/gh-pages/plugins/ember-cli-deploy-s3.md)
+* [/plugins/ember-cli-deploy-s3](https://github.com/ember-cli-deploy/ember-cli-deploy-version-badges/blob/gh-pages/plugins/ember-cli-deploy-s3.svg)
 
 Versioning information is stored in the YAML front-matter of that post:
 
@@ -40,7 +40,7 @@ To embed your badge, use the filename to determine the badge URL. For example
 this filename:
 
 ```
-plugins/ember-cli-deploy-s3.md
+plugins/ember-cli-deploy-s3.svg
 ```
 
 Is used as a badge with the following markup:

@@ -69,7 +69,7 @@ end
 
 class Writer
   def initialize(name, data)
-    @name = "#{name}.md"
+    @name = "#{name}.svg"
     @data = data
   end
 
