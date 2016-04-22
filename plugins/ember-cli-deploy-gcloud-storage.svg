@@ -1,0 +1,8 @@
+---
+layout: plugin
+url: https://github.com/knownasilya/ember-cli-deploy-gcloud-storage
+start_version: "0.5.0"
+end_version: "1.0.0"
+max_supported_version: 001000000000
+permalink: /plugins/ember-cli-deploy-gcloud-storage.svg
+---
