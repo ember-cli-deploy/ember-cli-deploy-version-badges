@@ -2,5 +2,6 @@
 layout: plugin
 url: http://github.com/ibroadfo/ember-cli-deploy-firebase
 start_version: "0.6.0"
+end_version: "1.0.0"
 permalink: /plugins/ember-cli-deploy-firebase.svg
 ---
