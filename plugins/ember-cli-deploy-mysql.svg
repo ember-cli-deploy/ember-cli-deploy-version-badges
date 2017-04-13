@@ -1,5 +1,8 @@
 ---
 layout: plugin
+url: https://github.com/mwpastore/ember-cli-deploy-mysql
 start_version: 0.5.1
+end_version: 0.5.1
+max_supported_version: 000005001000
 permalink: /plugins/ember-cli-deploy-mysql.svg
 ---
