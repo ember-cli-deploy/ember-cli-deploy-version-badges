@@ -15,11 +15,10 @@
     <text x="80" y="15" fill="#010101" fill-opacity=".3">ember-cli-deploy-versions</text>
     <text x="80" y="14">ember-cli-deploy-versions</text>
     <text x="195.5" y="15" fill="#010101" fill-opacity=".3">
-      {% if page.version_text %}{{page.version_text}}{% else %}{{page.start_version}}{% if page.end_version %}-{{page.end_version}}{% else %}+{% endif %}{% endif %}
+      {% if page.version_text %}{{page.version_text}}{% else %}{{page.start_version}}{% if page.end_version %}{% if page.end_version != page.start_version %}-{{page.end_version}}{% endif %}{% else %}+{% endif %}{% endif %}
     </text>
     <text x="195.5" y="14">
-      {% if page.version_text %}{{page.version_text}}{% else %}{{page.start_version}}{% if page.end_version %}-{{page.end_version}}{% else %}+{% endif %}
-      {% endif %}
+      {% if page.version_text %}{{page.version_text}}{% else %}{{page.start_version}}{% if page.end_version %}{% if page.end_version != page.start_version %}-{{page.end_version}}{% endif %}{% else %}+{% endif %}{% endif %}
     </text>
   </g>
 </svg>
