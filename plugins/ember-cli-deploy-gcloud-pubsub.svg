@@ -1,0 +1,7 @@
+---
+layout: plugin
+url: https://github.com/knownasilya/ember-cli-deploy-gcloud-pubsub
+start_version: "0.5.0"
+max_supported_version: 001000000000
+permalink: /plugins/ember-cli-deploy-gcloud-pubsub.svg
+---
